@@ -5,11 +5,18 @@
 body {
 	width: 100%;
 	margin: 0px;
+	/* background: linear-gradient(to right, #1a1a33, #ffffff); */
+	/* background: linear-gradient(to bottom right, #cccccc, #ffffff); */
+	/* background: linear-gradient(to  right, #333333, #1a1a1a);	 */
 	background-image: url(../image/background.jpg);
 	background-repeat: repeat-y no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+}
+h1{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 1em;
 }
 
 .icons>a {
@@ -40,9 +47,11 @@ body {
 		width: 35%;
 		border-radius: 5px;
 	}
+
 	.card:hover {
 		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 	}
+
 	img {
 		border: 5px solid white;
 		border-radius: 50%;
@@ -50,6 +59,7 @@ body {
 		margin-bottom: -15% !important;
 		width: 30%;
 	}
+
 	.name {
 		text-align: center;
 		font-size: 2.8em;
@@ -58,17 +68,20 @@ body {
 		margin-bottom: auto;
 		text-transform: capitalize;
 	}
+
 	hr {
 		width: 93%;
 		height: 2px;
 		background-color: gainsboro;
 		border: 0px;
 	}
+
 	.subtitle {
 		text-align: center;
 		font-size: 1.5em;
 		color: darkgray;
 	}
+
 	.icons {
 		font-size: 18px;
 		text-align: center;
@@ -77,6 +90,7 @@ body {
 		color: darkgray;
 		margin-bottom: 40px;
 	}
+
 	.location {
 		text-align: center;
 		color: white;
@@ -102,12 +116,14 @@ body {
 		background: url(img/bg.jpg) fixed no;
 		overflow-x: hidden;
 	}
+
 	hr {
 		width: 93%;
 		height: 2px;
 		background-color: gainsboro;
 		border: 0px;
 	}
+
 	.card {
 		margin-top: 10%;
 		margin-left: 2%;
@@ -118,15 +134,18 @@ body {
 		width: 95%;
 		border-radius: 5px;
 	}
+
 	.card:hover {
 		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 	}
+
 	img {
 		border: 15px solid white;
 		margin-bottom: -20% !important;
 		border-radius: 50%;
 		width: 33%;
 	}
+
 	.name {
 		padding-right: 4px;
 		padding-left: 4px;
@@ -137,11 +156,13 @@ body {
 		margin-bottom: auto;
 		text-transform: capitalize;
 	}
+
 	.subtitle {
 		text-align: center;
 		font-size: 1.2em;
 		color: darkgray;
 	}
+
 	.icons {
 		font-size: 11px;
 		text-align: center;
@@ -150,6 +171,7 @@ body {
 		color: darkgray;
 		margin-bottom: 40px;
 	}
+
 	.location {
 		text-align: center;
 		color: white;
@@ -170,12 +192,14 @@ body {
 		background: url(img/bg.jpg) fixed no;
 		overflow-x: hidden;
 	}
+
 	hr {
 		width: 93%;
 		height: 2px;
 		background-color: gainsboro;
 		border: 0px;
 	}
+
 	.card {
 		margin-top: 6%;
 		margin-left: 9%;
@@ -186,15 +210,18 @@ body {
 		width: 80%;
 		border-radius: 5px;
 	}
+
 	.card:hover {
 		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 	}
+
 	img {
 		border: 15px solid white;
 		margin-bottom: -15% !important;
 		border-radius: 50%;
 		width: 25%;
 	}
+
 	.name {
 		padding-right: 4px;
 		padding-left: 4px;
@@ -205,11 +232,13 @@ body {
 		margin-bottom: auto;
 		text-transform: capitalize;
 	}
+
 	.subtitle {
 		text-align: center;
 		font-size: 1.9em;
 		color: darkgray;
 	}
+
 	.icons {
 		font-size: 18px;
 		text-align: center;
@@ -218,6 +247,7 @@ body {
 		color: darkgray;
 		margin-bottom: 40px;
 	}
+
 	.location {
 		text-align: center;
 		color: white;
@@ -238,12 +268,14 @@ body {
 		background: url(img/bg.jpg) fixed no;
 		overflow-x: hidden;
 	}
+
 	hr {
 		width: 93%;
 		height: 2px;
 		background-color: gainsboro;
 		border: 0px;
 	}
+
 	.card {
 		margin-top: 4%;
 		margin-left: 13%;
@@ -254,15 +286,18 @@ body {
 		width: 75%;
 		border-radius: 5px;
 	}
+
 	.card:hover {
 		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 	}
+
 	img {
 		border: 15px solid white;
 		margin-bottom: -18% !important;
 		border-radius: 50%;
 		width: 30%;
 	}
+
 	.name {
 		text-align: center;
 		font-size: 2.5em;
@@ -271,11 +306,13 @@ body {
 		margin-bottom: auto;
 		text-transform: capitalize;
 	}
+
 	.subtitle {
 		text-align: center;
 		font-size: 2em;
 		color: darkgray;
 	}
+
 	.icons {
 		font-size: 15px;
 		text-align: center;
@@ -284,6 +321,7 @@ body {
 		color: darkgray;
 		margin-bottom: 40px;
 	}
+
 	.location {
 		text-align: center;
 		color: white;
@@ -312,7 +350,7 @@ body {
 	margin-bottom: 20px;
 }
 
-.fa-twitter:hover {
+.fa-linkedin:hover {
 	border-radius: 50%;
 	color: white;
 	background-color: #1da1f2;
@@ -324,7 +362,7 @@ body {
 	background-color: #3b5998;
 }
 
-.fa-google-plus:hover {
+.fa-user:hover {
 	border-radius: 50%;
 	color: white;
 	background-color: #dd4b39;
