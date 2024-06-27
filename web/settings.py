@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     # Django Material Dashboard Admin
-    'admin_material.apps.AdminMaterialDashboardConfig',
+    # 'admin_material.apps.AdminMaterialDashboardConfig',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #app
     'app.page',
+    'app.admin_material',
 ]
 
 MIDDLEWARE = [
@@ -120,8 +121,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
-STATICFILES_DIRS = [ os.path.join(BASE_DIR, 'static'),]
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 
 # media
 MEDIA_URL = 'media/'
