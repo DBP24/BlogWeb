@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #app
-    'app.page',
+    'app.page.apps.PageConfig',
+    'app.blog.apps.BlogConfig',
     'app.admin_material',
 ]
 

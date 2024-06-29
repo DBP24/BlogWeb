@@ -13,18 +13,22 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="" />
       <meta name="keywords" content=" "/>
-      <meta name="author" content="DIEGO BONATTI">
+      <meta name="author" content="{{ dato.name }}">
       <meta name="robots" content="index, follow" />
    </head>
    <body>
       <!--Card-->
       <div class="card animated fadeIn">
-         <center><img class="center animated rollIn" src="{% static 'page/image/perfil.jpg' %}" alt="avatar"></center>
+         {% if dato.profile_photo %}
+         <center><img class="center animated rollIn" src="{{ dato.profile_photo.url }}" alt="avatar"></center>
+         {% else %}
+         <center><img class="center animated rollIn" src="{% static 'default_avatar.jpg' %}" alt="avatar"></center>
+         {% endif %}
          <hr>
          <div class="name">
-           <h1>DIEGO BONATTI</h1> 
+           <h1>{{ dato.name }}</h1> 
          </div>
-         <p class="subtitle">Ingeniero de Sistemas</p>
+         <p class="subtitle">{{ dato.title }}</p>
          <p class="location"><a href="#" target="_blank"> Conoceme más ...</a>
          </p>
          <p class="icons animated pulse">
@@ -63,7 +67,7 @@
       </div>
       <!--footer-->
       <footer class="animated fadeIn">
-         &copy; {% now "Y" %}. DIEGO BONATTI.
+         &copy; {% now "Y" %}. {{ dato.name }}.
       </footer>
    </body>
 </html>

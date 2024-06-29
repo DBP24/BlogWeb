@@ -22,8 +22,17 @@
 # Información encontrada - WeBuilder
 
 
---
-Tener en cuenta que no a agregado el template admin para poder modificar el template de django material
+# Configuración Archivo media
+    # pip install Pillow
+    # En trabajo de Desarrollo:
+    |Configuracion en urls - Setting del project:
+        -----------------------------------
+        if settings.DEBUG:
+        urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+        -------------------------------------------------
+        MEDIA_URL = '/media/'
+        MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 
 # hacer un video en base a foto y audio -  analizar codigo 
