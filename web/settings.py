@@ -110,13 +110,13 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es-es'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Lima'
 
 USE_I18N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
@@ -139,4 +139,14 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_REDIRECT_URL = '/'
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# Configuracion Correo gmail
+USER = 'diegobonattipajuelo1@gmail.com'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'diegobonattipajuelo1@gmail.com'
+EMAIL_HOST_PASSWORD = 'sfih cdnk ohfq baoe'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+

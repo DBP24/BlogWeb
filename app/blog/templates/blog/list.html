@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}Página de Inicio - {{ block.super }}{% endblock %}
+
+{% block content %}
+
+
+<div class="container">
+    <div class="row topspace">
+        <div class="col-sm-8 col-sm-offset-2">
+            {% for post in posts %}                                            
+            <article class="post">
+                <header class="entry-header">
+                    <div class="entry-meta"> 
+                        <span class="posted-on"><time class="entry-date published" date="2013-09-27">Publicado {{ post.publish }} </time></span>			
+                    </div>
+                    <h1 class="entry-title">{{ post.title }}</h1>
+                    <!-- <h1 class="entry-title"><a href="{{  post.get_absolute_url }}" rel="bookmark">{{ post.title }}</a></h1> -->
+                    
+                </header>
+                <div class="entry-content">
+                    <p>{{ post.body|truncatewords:40|linebreaks }}.</p>
+                    <a href="{{  post.get_absolute_url }}" class="more-link">Continuar leyendo &#8230;</a>
+                </div>
+            </article>
+            {% endfor %}
+            {% include "blog/pagination.html" with page=posts %}
+        </div>
+    </div>
+</div>
+<!-- Otros elementos específicos de la página de inicio -->
+{% endblock %}
