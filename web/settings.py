@@ -12,6 +12,10 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 import os
+from dotenv import load_dotenv
+
+# Cargar variables de entorno desde .env
+load_dotenv()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -142,11 +146,11 @@ LOGIN_REDIRECT_URL = '/'
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Configuracion Correo gmail
-USER = 'diegobonattipajuelo1@gmail.com'
+USER = os.getenv('USER')
 
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'diegobonattipajuelo1@gmail.com'
-EMAIL_HOST_PASSWORD = 'sfih cdnk ohfq baoe'
-EMAIL_PORT = 587
+EMAIL_HOST = os.getenv('EMAIL_HOST')
+EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
+EMAIL_PORT =os.getenv('EMAIL_PORT')
 EMAIL_USE_TLS = True
 
