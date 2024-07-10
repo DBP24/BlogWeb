@@ -1,32 +1,144 @@
 {% extends "base.html" %}
+{% load static %}
 {% load custom_filters %}
 {% block title %}{{ post.title }}{% endblock %}
 {% block content %}
 
-<div class="container">
-  <div class="row topspace">
-      <div class="col-sm-8 col-sm-offset-2">
-                                       
-          <article class="post">
-              <header class="entry-header">
-                  <h1 class="entry-title">{{ post.title }}</h1>
-              </header>
-              <div class="entry-content">
-                <p>{{ post.body|linebreaks }}</p>
-              </div>
-              <header class="entry-header">
-                <div class="entry-meta"> 
-                    <span class="posted-on"><time class="entry-date published" date="2013-09-27">Publicado {{ post.publish }} por {{ post.author }}</time></span>			
-                </div>
-            </header>
-          </article>
+<main id="main">
+  <div class="container">
+    <div class="row topspace">
 
-          <div class="col-lg-12 text-right">
-            <a href="{% url 'blog:post_share' post.id %} " class="btn btn-primary btn-lg">Envia mi Post a tu amistades ... 😎</a>
+      <!-- <aside class="col-md-4 sidebar sidebar-left ">
+				<div class="row widget ">
+					<div class="col-xs-12">
+            <h4 id="reply-title" >{{ "Publicaciones Similares"|upper }}</h4><hr>
+            {% for post in similar_posts %}
+						<h4><a class="__smlar" href="{{ post.get_absolute_url }}">{{ post.title }}</a></h4>
+						<p>{{ post.body|truncatewords:20|linebreaks }}</p>
+            {% empty %}
+                There are no similar posts yet.
+            {% endfor %}
+            <hr> 
+          <p>He escrito <strong>{% total_posts %}</strong>  Post hasta ahora. 
+            <a class="__a" href="{% url 'blog:get_post' %}"> <strong>Navegar &rarr;</strong></a>
+          </p>
           </div>
+				</div>
+			</aside> -->
+      
+
+      <div class="col-sm-8 col-sm-offset-2">
+        <article class="post">
+          <header class="entry-header">
+            <h1 class="entry-title">{{ post.title }}</h1>
+          </header>
+          <div class="entry-content">
+            <p>{{ post.body|markdown }}</p>
+          </div>
+          <header class="entry-header">
+            <div class="entry-meta">
+              <span class="posted-on"><time class="entry-date published" date="2013-09-27">Publicado {{ post.publish }}
+                  por {{ post.author }}</time></span>
+            </div>
+          </header>
+        </article>
+
+        <div class="col-lg-12 text-right ">
+          <a href="{% url 'blog:post_share' post.id %} " class="btn btn-primary btn-lg __esp">Envia  a tu
+            amistades ... 😎</a>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+    
+            <div id="comments">
+              <nav id="comment-nav-below" class="comment-navigation clearfix" role="navigation">
+                <div class="nav-content">
+    
+                </div>
+              </nav>
+              
+              {% with comments.count as total_comments %}
+              <h3 class="comments-title">
+                {{ total_comments }} Comentario{{ total_comments|pluralize }}
+              </h3>
+              {% endwith %}
+              <br><br>
+              <ol class="comments-list">
+                {% for comment in comments %}
+                <li class="comment">
+                  <div>
+                    <img src="{% static 'blog/images/avatar_man.png' %}" alt="Avatar" class="avatar">
+    
+                    <div class="comment-meta">
+                      <span class="author"><a href="#">{{ comment.name }}</a></span>
+                      <span class="date"><a href="#">{{ comment.created }}</a></span>
+                    </div><!-- .comment-meta -->
+    
+                    <div class="comment-body">{{ comment.body|linebreaks }} </div><!-- .comment-body -->
+                  </div>
+                  <div>
+                    {% empty %}
+                    <p>Se el primero en dejar tu comentario...</p>
+                  </div>
+                </li>
+                {% endfor %}
+              </ol>
+              <div class="clearfix"></div>
+    
+              <nav id="comment-nav-below" class="comment-navigation clearfix" role="navigation">
+                <div class="nav-content">
+                  <div class="nav-previous">&larr; Older Comments</div>
+                  <div class="nav-next">Newer Comments &rarr;</div>
+                </div>
+              </nav><!-- #comment-nav-below -->
+    
+    
+              <div id="respond">
+                <h3 id="reply-title">Escribe tu Comentario</h3> <br>
+                <form action="{% url 'blog:post_comment' post.id %}" method="post" id="commentform" class="">
+                  {{ form.as_p }}
+                  {% csrf_token %}
+                 <br><br>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <div class="checkbox">
+                        <!-- <label> <input type="checkbox"> Subscribe to updates</label> -->
+                      </div>
+                    </div>
+                    <div class="col-md-4 text-right">
+                      <p><input type="submit" class="btn btn-action" value="Añadir Comentario"></p>
+                    </div>
+                </form>
+              </div> <!-- /respond -->
+              <div class="col-xs-12">
+                <h4 id="reply-title" >{{ "Publicaciones Similares"|upper }}</h4><hr>
+                {% for post in similar_posts %}
+                <h4><a class="__smlar" href="{{ post.get_absolute_url }}">{{ post.title }}</a></h4>
+                <p>{{ post.body|truncatewords:20|linebreaks }}</p>
+                {% empty %}
+                    There are no similar posts yet.
+                {% endfor %}
+                <hr> 
+              <p>He realizado <strong>{% total_posts %}</strong>  publicaciones hasta ahora. 
+                <a class="__a" href="{% url 'blog:get_post' %}"> <strong>Navegar &rarr;</strong></a>
+              </p>
+              </div>
+              
+            </div>
+          </div>
+        </div> <!-- /row comments -->
 
       </div>
+    </div>
+
+    
+
   </div>
-</div>
+
+</main>
+ 
 
 {% endblock %}
+
+

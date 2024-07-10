@@ -1,17 +1,42 @@
 from django.shortcuts import render,get_object_or_404
-from .models import Post
+from .models import Post,Comment
 from app.page.models import ProfessionalProfile
+from django.shortcuts import redirect
 # http404
 from django.http import Http404
 # paginación
 from django.core.paginator import Paginator,EmptyPage, PageNotAnInteger
-# envio de correo electronico
-from .forms import EmailPostForm
+# envio de correo electronico y comentario
+from django.views.decorators.http import require_POST
+from .forms import EmailPostForm, CommentForm
 from django.core.mail import send_mail
+# urls reverse
+from django.urls import reverse
+
+# etiquetas
+from taggit.models import Tag
+# caracteres
+from unidecode import unidecode
+# orm django
+'''
+ • Avg: The mean value
+ • Max: The maximum value
+ • Min: The minimum value
+ • Count: The total number of objects
+'''
+from django.db.models import Count
+
 # Listar los Post
-def get_post(request):
-    # paginación
+def get_post(request,tag_slug=None):
+
+    #etiquetas
     posts_list = Post.published.all()
+    tag = None
+    if tag_slug:
+        tag = get_object_or_404(Tag, slug=tag_slug)
+        posts_list = posts_list.filter(tags__in=[tag])
+        
+    # paginación
     paginator = Paginator(posts_list, 3)
     page_number = request.GET.get('page', 1)
 
@@ -22,10 +47,11 @@ def get_post(request):
         posts = paginator.page(1)
     except EmptyPage:
         posts = paginator.page(paginator.num_pages)
-
+        
     context = {
         'posts' : posts,
-        'profile' : profile
+        'profile' : profile,
+        'tag' : tag
     }
     return render(request,'blog/list.html',context)
 
@@ -39,16 +65,24 @@ def post_detail(request, year, month, day, post):
                              publish__month=month,
                              publish__day=day)
     profile = ProfessionalProfile.objects.get()
+    # Comentarios
+    comments = post.comments.filter(active=True)
+    form = CommentForm()
+    
+    # Listamos los post similares
+    post_tags_ids = post.tags.values_list('id', flat=True)
+    similar_posts = Post.published.filter(tags__in=post_tags_ids)\
+                                  .exclude(id=post.id)
+    similar_posts = similar_posts.annotate(same_tags=Count('tags'))\
+                                 .order_by('-same_tags','-publish')[:4]
     context = {
         'post': post,
-        'profile' : profile
+        'profile' : profile,
+        'comments' :comments,
+        'form' : form,
+        'similar_posts': similar_posts
     }
     return render(request,'blog/details.html',context)
-
-    # try:
-    #         post = Post.published.get(id=id)
-    # except Post.DoesNotExist:
-    # raise Http404("No Post found.")
 
 
 # envio de correo electronico
@@ -56,6 +90,7 @@ def post_share(request, post_id):
     # Retrieve post by id
     post = get_object_or_404(Post, id=post_id, status=Post.Status.PUBLISHED)
     sent = False
+    profile = ProfessionalProfile.objects.get()
     if request.method == 'POST':
         form = EmailPostForm(request.POST)
         if form.is_valid():
@@ -69,11 +104,35 @@ def post_share(request, post_id):
             send_mail(subject, message, 'diegobonattipajuelo1@gmail.com',
                     [cd['to']])
             sent = True
+
+            # Rediret a ListPost
+            # return redirect('blog:get_post')
     else:
         form = EmailPostForm()
     return render(request, 'blog/share.html',
                    {
                        'post': post, 
                        'form': form,
-                       'sent' : sent
+                       'sent' : sent,
+                       'profile' :profile
                        })
+
+
+@require_POST
+def post_comment(request, post_id):
+    post = get_object_or_404(Post, id=post_id, status=Post.Status.PUBLISHED)
+    comment = None
+    # A comment was posted
+    form = CommentForm(data=request.POST)
+    if form.is_valid():
+       # Create a Comment object without saving it to the database
+       comment = form.save(commit=False)
+       # Assign the post to the comment
+       comment.post = post
+       # Save the comment to the database
+       comment.save()
+    return redirect(post.get_absolute_url()) 
+#    return render(request, 'blog/comment.html',
+#                           {'post': post,
+#                            'form': form,
+#                            'comment': comment})

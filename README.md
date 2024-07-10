@@ -104,3 +104,9 @@ audio_path = [os.path.join('/content/V-Express/test_samples/prueba', f) for f in
 
 
 files.download('/content/V-Express/output/short_case/resultado.mp4')
+
+
+# tildes y caracteres especiales 
+pip install unicode
+# Filtros en body de post
+pip install markdown
