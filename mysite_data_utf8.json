@@ -1,0 +1,1913 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-06-28T13:05:44.169",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "DIEGO BONATTI PAJUELO",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-06-28T13:23:18.365",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Redes sociales de DIEGO BONATTI PAJUELO",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-06-28T13:24:29.671",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "DIEGO BONATTI",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-06-29T12:52:13.287",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Login con Django y Django Material",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-07-01T11:45:19.941",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-07-01T13:26:58.343",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-07-01T13:36:55.856",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-07-03T01:04:48.214",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-07-03T01:06:08.044",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-07-06T04:53:07.446",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-07-06T06:20:56.620",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "La Importancia de la Estructura y los Espacios en Blanco en Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-07-06T06:29:08.381",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "La Eficiencia y Simplicidad de la Estructura de Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-07-06T06:29:44.808",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "La Eficiencia y Simplicidad de la Estructura de Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-07-06T06:48:33.885",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-07-06T06:59:19.404",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-07-06T06:59:46.825",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-07-06T07:04:11.009",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-07-06T18:08:44.007",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-07-06T18:50:07.616",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-07-06T18:56:17.901",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-07-09T13:01:11.951",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Comment by DIEGO BONATTI PAJUELO on Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-07-09T13:01:16.504",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Comment by luis bonatti on Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-07-09T13:08:06.191",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Comment by luis bonatti on Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-07-09T13:08:06.205",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Comment by whatpapp on Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-07-09T13:08:06.218",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Comment by whatpapp on Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-07-09T13:08:06.221",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Comment by luis bonatti on Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-07-09T13:08:14.417",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Comment by luis bonatti on Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-07-09T13:08:17.433",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Comment by DIEGO BONATTI PAJUELO on Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-07-09T13:29:07.541",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Desarrollo Web",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-07-09T13:29:30.019",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Automatización Industrial",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-07-09T13:29:54.488",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Programación",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-07-09T13:30:10.605",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Python con Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-07-09T13:30:56.058",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Desarrollo Ágil",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-07-09T13:32:41.372",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Python con Django",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"Env\\u00edo de correo electronico con django tagged with Python con Django\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-07-09T13:33:15.567",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Programación",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"Env\\u00edo de correo electronico con django tagged with Programaci\\u00f3n\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-07-09T16:22:58.694",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Programacion",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-07-09T16:23:17.832",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-07-09T16:24:02.845",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Programacion",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-07-09T16:38:04.979",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Programación",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-07-09T17:04:50.867",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Automatización Industrial",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-07-09T17:05:01.985",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Programación",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-07-09T17:17:32.391",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Python con Django",
+    "action_flag": 2,
+    "change_message": "[{\"deleted\": {\"name\": \"tagged item\", \"object\": \"Env\\u00edo de correo electronico con django tagged with Python con Django\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-07-09T17:19:19.785",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Programación",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"La Importancia de la Estructura y los Espacios en Blanco en Django tagged with Programaci\\u00f3n\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-07-09T17:20:30.020",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Python con Django",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"Env\\u00edo de correo electronico con django tagged with Python con Django\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-07-09T17:39:01.692",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Desarrollo Web",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"La Eficiencia y Simplicidad de la Estructura de Django tagged with Desarrollo Web\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"Transformando Industrias con Python: Un Vistazo a su Aplicaci\\u00f3n en Diversos Sectores tagged with Desarrollo Web\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-07-09T20:48:59.381",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Programación",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"La Eficiencia y Simplicidad de la Estructura de Django tagged with Programaci\\u00f3n\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"Transformando Industrias con Python: Un Vistazo a su Aplicaci\\u00f3n en Diversos Sectores tagged with Programaci\\u00f3n\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2024-07-09T21:37:29.087",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Programación",
+    "action_flag": 2,
+    "change_message": "[{\"deleted\": {\"name\": \"tagged item\", \"object\": \"Env\\u00edo de correo electronico con django tagged with Programaci\\u00f3n\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2024-07-09T21:37:40.571",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Python con Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"tagged item\", \"object\": \"La Importancia de la Estructura y los Espacios en Blanco en Django tagged with Python con Django\", \"fields\": [\"Object ID\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2024-07-09T21:38:19.411",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Python con Django",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"Env\\u00edo de correo electronico con django tagged with Python con Django\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"La Eficiencia y Simplicidad de la Estructura de Django tagged with Python con Django\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2024-07-09T21:49:03.008",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2024-07-09T21:50:45.615",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2024-07-09T21:51:26.327",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2024-07-09T21:52:44.857",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2024-07-09T21:53:16.218",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2024-07-09T21:53:44.401",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2024-07-09T21:55:51.640",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2024-07-09T21:56:37.680",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2024-07-09T21:57:25.811",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2024-07-09T21:59:37.201",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2024-07-09T22:00:13.831",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2024-07-09T22:00:45.586",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2024-07-09T22:01:53.958",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2024-07-09T22:02:13.579",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2024-07-09T22:03:00.297",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2024-07-09T22:03:51.012",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2024-07-09T22:04:26.167",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2024-07-09T22:05:11.160",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2024-07-09T22:05:36.235",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2024-07-09T22:06:04.729",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2024-07-09T22:06:58.118",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Envío de correo electronico con django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2024-07-09T22:12:03.568",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2024-07-09T22:12:26.352",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2024-07-09T22:13:50.482",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2024-07-09T22:15:31.423",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2024-07-09T22:15:48.273",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2024-07-09T22:48:09.996",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2024-07-09T22:48:49.530",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "http://127.0.0.1:8000/",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2024-07-09T23:01:04.255",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "localhost:8000/",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2024-07-09T23:01:20.161",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add professional profile",
+    "content_type": 7,
+    "codename": "add_professionalprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change professional profile",
+    "content_type": 7,
+    "codename": "change_professionalprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete professional profile",
+    "content_type": 7,
+    "codename": "delete_professionalprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view professional profile",
+    "content_type": 7,
+    "codename": "view_professionalprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add social media",
+    "content_type": 8,
+    "codename": "add_socialmedia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change social media",
+    "content_type": 8,
+    "codename": "change_socialmedia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete social media",
+    "content_type": 8,
+    "codename": "delete_socialmedia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view social media",
+    "content_type": 8,
+    "codename": "view_socialmedia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 9,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 9,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 9,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 9,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 10,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 10,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 10,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 10,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 11,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 11,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 11,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 11,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 12,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 12,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 12,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 12,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 13,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 13,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 13,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 13,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$4LTXOnOGEVyUliVxcPkZnf$oNH5k+j1oM6neza/IbcOx5/Np98erCGU5ZuUMhO0mVg=",
+    "last_login": "2024-07-06T06:19:36.103",
+    "is_superuser": true,
+    "username": "bonattip",
+    "first_name": "",
+    "last_name": "",
+    "email": "bonattipajuelodiego2406@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-06-24T14:35:18.291",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "page",
+    "model": "professionalprofile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "page",
+    "model": "socialmedia"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3dvk1mo05hmrunu8td959d15t46dl93r",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFAKQ-X7v0GMjMMUjU0Ke3K-O_apAvd3nPOfYkE21rT1nlJUxZnocXpd0OgB7cd5Du02yxpbusyodwVedAur3Pm5-Vw_w4q9PqtI1sdbEaFji1ZX3IMhuMIxqCJmkrUwESKdBl4sMxYvHGjC-yCR6fE-wPz6jhC:1sQ264:IJVKYip4YRe7KBPhmWAy4CNHGpJevHcaknlHvkAnFvw",
+    "expire_date": "2024-07-20T04:52:48.176"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cm1nu818aige92kgyu007eep63kpumqe",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFAKQ-X7v0GMjMMUjU0Ke3K-O_apAvd3nPOfYkE21rT1nlJUxZnocXpd0OgB7cd5Du02yxpbusyodwVedAur3Pm5-Vw_w4q9PqtI1sdbEaFji1ZX3IMhuMIxqCJmkrUwESKdBl4sMxYvHGjC-yCR6fE-wPz6jhC:1sOFPs:y8ezBcXApK8GHigEyiAF1K1zhR_ebuHXeAd7PdRBsc8",
+    "expire_date": "2024-07-15T11:41:52.290"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ek65n485pfo323ockkir3ty7typbimg7",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFAKQ-X7v0GMjMMUjU0Ke3K-O_apAvd3nPOfYkE21rT1nlJUxZnocXpd0OgB7cd5Du02yxpbusyodwVedAur3Pm5-Vw_w4q9PqtI1sdbEaFji1ZX3IMhuMIxqCJmkrUwESKdBl4sMxYvHGjC-yCR6fE-wPz6jhC:1sLks7:kqNDQTfs5bF9dgTW8oLquat4eBN7pWL-Ofsks_zU630",
+    "expire_date": "2024-07-08T14:40:43.081"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "k1hyuuiu7wl5dacap6bm09avwxzlmzm0",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFAKQ-X7v0GMjMMUjU0Ke3K-O_apAvd3nPOfYkE21rT1nlJUxZnocXpd0OgB7cd5Du02yxpbusyodwVedAur3Pm5-Vw_w4q9PqtI1sdbEaFji1ZX3IMhuMIxqCJmkrUwESKdBl4sMxYvHGjC-yCR6fE-wPz6jhC:1sLsaL:Ljle5KhR0fPwMoCuv0Ld8N6_EAiwvSLcWixJ3wL6x_g",
+    "expire_date": "2024-07-08T22:54:53.630"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nzcu5jn5bf9r8iswgngvb25j3ygtvkc3",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFAKQ-X7v0GMjMMUjU0Ke3K-O_apAvd3nPOfYkE21rT1nlJUxZnocXpd0OgB7cd5Du02yxpbusyodwVedAur3Pm5-Vw_w4q9PqtI1sdbEaFji1ZX3IMhuMIxqCJmkrUwESKdBl4sMxYvHGjC-yCR6fE-wPz6jhC:1sQ3S4:xXkz5T6pVrsxck5lyPkrRoaVCxhsqZUWvbJhcHDH3ek",
+    "expire_date": "2024-07-20T06:19:36.112"
+  }
+},
+{
+  "model": "page.professionalprofile",
+  "pk": 1,
+  "fields": {
+    "name": "DIEGO BONATTI",
+    "title": "INGENIERO DE SISTEMAS",
+    "summary": "Egresado de la carrera de Ingeniería de Sistemas, con  conocimiento en desarrollo de software y gestión de proyectos tecnológicos. Poseo habilidades en programación y aplicación de metodologías ágiles como ICONIX y SCRUM. Mi experiencia incluye el desarrollo de aplicaciones web utilizando estructuras como \r\nMVC para PHP y MVT para Python, así como el manejo de repositorios en GitHub y bases de datos como SQL Server y MySQL.",
+    "profile_photo": "fotos_perfil/DSC_1549.JPG",
+    "brith_date": "1995-07-24",
+    "email": "bonattipajuelodiego2406@gmail.com",
+    "phone": "941840053",
+    "address": "Lima - Perú"
+  }
+},
+{
+  "model": "page.socialmedia",
+  "pk": 1,
+  "fields": {
+    "facebook_url": "https://www.facebook.com/diego.bonattipajuelo",
+    "twitter_url": null,
+    "linkedin_url": "http://www.linkedin.com/in/diego-bonatti-pajuelo",
+    "instagram_url": "http://www.linkedin.com/in/diego-bonatti-pajuelo",
+    "github_url": "https://github.com/DBP24/",
+    "profile": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Envío de correo electronico con django",
+    "slug": "envio-de-correo-electronico-con-django",
+    "author": 1,
+    "body": "En Django, el envío de correos electrónicos se simplifica mediante el uso del módulo django.core.mail, que permite configurar fácilmente servidores SMTP y enviar correos tanto de forma síncrona como asíncrona. Con la función send_mail() se puede gestionar contenido HTML, adjuntar archivos y manejar destinatarios de manera flexible. Esta capacidad es fundamental para aplicaciones web que requieren enviar notificaciones automáticas, confirmaciones de cuentas u otro tipo de mensajes transaccionales de manera eficiente y segura.\r\n \r\n\r\n### Ejemplo de código Python:\r\n\r\n    def post_share(request, post_id):\r\n        post = get_object_or_404(Post, id=post_id, status=Post.Status.PUBLISHED)\r\n        sent = False\r\n        profile = ProfessionalProfile.objects.get()\r\n        if request.method == 'POST':\r\n            form = EmailPostForm(request.POST)\r\n            if form.is_valid():\r\n                cd = form.cleaned_data\r\n                post_url = request.build_absolute_uri(post.get_absolute_url())\r\n                subject = f\"{cd['name']} recommends you read {post.title}\"\r\n                message = f\"Read {post.title} at {post_url}\\n\\n{cd['name']}'s comments: {cd['comments']}\"\r\n                send_mail(subject, message, 'diegobonattipajuelo1@gmail.com', [cd['to']])\r\n                sent = True\r\n        else:\r\n            form = EmailPostForm()\r\n        return render(request, 'blog/share.html', {'post': post, 'form': form, 'sent': sent, 'profile': profile})",
+    "publish": "2024-07-01T11:43:56",
+    "created": "2024-07-01T11:45:19.925",
+    "update": "2024-07-09T22:06:58.112",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "La Importancia de la Estructura y los Espacios en Blanco en Django",
+    "slug": "la-importancia-de-la-estructura-y-los-espacios-en-blanco-en-django",
+    "author": 1,
+    "body": "1. Estructura Organizada: La Base de la Mantenibilidad\r\nDjango fomenta una estructura de proyecto organizada que separa claramente diferentes componentes de la aplicación. Esto incluye:\r\n\r\nDirectorios y Módulos: Django sugiere una estructura de directorios estándar que separa las configuraciones (settings.py), las aplicaciones (apps/), las plantillas (templates/), los archivos estáticos (static/), y más. Esta organización no solo facilita la localización de archivos, sino que también promueve buenas prácticas de desarrollo colaborativo.\r\n\r\nAplicaciones Reutilizables: Django está diseñado para fomentar la reutilización de aplicaciones entre proyectos. Cada aplicación puede tener su propia estructura interna, incluyendo modelos, vistas, y plantillas, que están claramente definidos y separados del resto del proyecto. Esto permite un desarrollo modular y escalable.\r\n\r\n2. Espacios en Blanco: Más que Simplemente Estética\r\nAunque puede parecer trivial, el manejo adecuado de los espacios en blanco dentro del código de Django tiene un impacto significativo:\r\n\r\nLegibilidad y Mantenibilidad: Django favorece el uso de espacios en blanco consistentes y significativos. Esto incluye indentación apropiada, separación clara entre funciones y clases, y el uso de líneas en blanco para separar bloques lógicos. Una buena práctica es seguir las directrices de estilo de código de Python (PEP 8), que Django también sigue de cerca.\r\n\r\nFuncionalidad y Rendimiento: En Python y, por ende, en Django, la indentación correcta no es solo una cuestión de estilo; afecta directamente la estructura del código y, por lo tanto, su funcionalidad. Un mal manejo de los espacios en blanco puede llevar a errores de indentación que hacen que el código no se ejecute correctamente.\r\n\r\n3. Consistencia y Colaboración\r\nPara equipos de desarrollo, seguir una estructura de proyecto y manejar los espacios en blanco de manera uniforme es crucial:\r\n\r\nColaboración Eficiente: Con una estructura bien definida y convenciones claras sobre los espacios en blanco, los miembros del equipo pueden entender y modificar el código de manera más eficiente. Esto reduce el tiempo dedicado a la resolución de conflictos y errores de estilo, permitiendo que el enfoque principal esté en la lógica de negocio y la innovación.\r\n\r\nMantenimiento a Largo Plazo: A medida que el proyecto crece y evoluciona, una estructura organizada y el manejo coherente de los espacios en blanco facilitan las actualizaciones y la incorporación de nuevas funcionalidades. Los desarrolladores nuevos y existentes pueden integrarse rápidamente en el proyecto y entender su arquitectura.\r\n\r\nEn conclusión, la estructura organizada y el manejo cuidadoso de los espacios en blanco no son simplemente convenciones estéticas en Django, sino pilares fundamentales que sustentan la eficiencia, mantenibilidad y colaboración dentro del desarrollo de aplicaciones web. Al seguir estas prácticas, no solo mejoramos la calidad del código, sino que también establecemos una base sólida para el éxito continuo de nuestros proyectos.",
+    "publish": "2024-07-06T06:19:42",
+    "created": "2024-07-06T06:20:56.619",
+    "update": "2024-07-06T06:20:56.619",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "La Eficiencia y Simplicidad de la Estructura de Django",
+    "slug": "la-eficiencia-y-simplicidad-de-la-estructura-de-django",
+    "author": 1,
+    "body": "Cuando se trata de desarrollar aplicaciones web robustas y escalables, la elección del framework adecuado puede marcar una gran diferencia. Django se destaca no solo por su poderosa funcionalidad, sino también por su estructura eficiente y simplificada que facilita el desarrollo y mantenimiento de proyectos complejos.\r\n\r\n1. Modelo MVC Simplificado: MTV en Django\r\nDjango sigue un patrón de diseño llamado MTV (Modelo, Template, Vista), que es esencialmente una adaptación del clásico Modelo-Vista-Controlador (MVC). Esta estructura simplificada se traduce en:\r\n\r\nModelos Claros y Concisos: Los modelos en Django representan la estructura de datos de la aplicación de manera intuitiva. Con clases que mapean directamente a tablas en la base de datos, Django facilita la gestión y manipulación de datos complejos sin abrumar al desarrollador con detalles técnicos.\r\n\r\nVistas Funcionales y Reutilizables: Las vistas en Django manejan la lógica de negocio y la interacción entre modelos y plantillas. Con funciones o clases basadas en vistas, los desarrolladores pueden estructurar su lógica de manera modular y reutilizable, promoviendo así un código limpio y mantenible.\r\n\r\nPlantillas Dinámicas y Separadas: Las plantillas en Django permiten la presentación de datos de manera dinámica y separada de la lógica de la aplicación. Con la capacidad de integrar fácilmente lógica del lado del servidor dentro de HTML limpio y estructurado, Django simplifica el desarrollo frontend y asegura una separación clara de responsabilidades.\r\n\r\n2. Administración Automatizada y Administrativa\r\nDjango incluye un potente sistema de administración que automatiza muchas tareas comunes de desarrollo:\r\n\r\nPanel de Administración Integrado: Con solo unas pocas líneas de código, Django proporciona un panel de administración listo para usar que permite gestionar modelos y datos de manera eficiente. Esto no solo acelera el desarrollo inicial, sino que también facilita la gestión y mantenimiento de la aplicación a largo plazo.\r\n\r\nORM y Abstracción de Bases de Datos: El ORM (Object-Relational Mapping) de Django simplifica la interacción con la base de datos al eliminar la necesidad de escribir consultas SQL directamente. Esto hace que el acceso y manipulación de datos sean más intuitivos y menos propensos a errores.\r\n\r\n3. Extensibilidad y Comunidad Activa\r\nDjango está diseñado para ser extensible y adaptable a diferentes requisitos del proyecto:\r\n\r\nAmplia Biblioteca de Extensiones y Paquetes: La comunidad activa de Django ha desarrollado una amplia gama de paquetes y extensiones que abordan desde autenticación hasta integraciones con servicios externos. Esto permite a los desarrolladores ampliar la funcionalidad básica de Django según las necesidades específicas del proyecto.\r\n\r\nDocumentación Completa y Soporte: Django ofrece una documentación detallada y una comunidad de usuarios activa que proporciona soporte y soluciones a problemas comunes. Esto no solo facilita el aprendizaje del framework, sino que también asegura que los desarrolladores puedan resolver problemas de manera eficiente.\r\n\r\nEn resumen, la estructura eficiente y simplificada de Django no solo acelera el proceso de desarrollo, sino que también mejora la mantenibilidad y escalabilidad de las aplicaciones web. Al adoptar Django, los desarrolladores pueden enfocarse en la lógica de negocio y la innovación, confiando en que el framework proporciona las herramientas necesarias para construir aplicaciones web modernas y robustas.",
+    "publish": "2024-07-06T06:28:43",
+    "created": "2024-07-06T06:29:08.379",
+    "update": "2024-07-06T06:29:44.805",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Transformando Industrias con Python: Un Vistazo a su Aplicación en Diversos Sectores",
+    "slug": "transformando-industrias-con-python-un-vistazo-a-su-aplicacion-en-diversos-sectores",
+    "author": 1,
+    "body": "Python, conocido por su simplicidad, flexibilidad y gran comunidad de desarrollo, ha emergido como un lenguaje de programación poderoso que está revolucionando múltiples industrias. Desde la tecnología hasta la ciencia, Python se ha convertido en una herramienta clave para resolver problemas complejos y mejorar la eficiencia operativa. Veamos cómo este lenguaje versátil está transformando diferentes sectores industriales:\r\n\r\n\r\n<center style=\"padding-top: 20px; padding-bottom: 20px;\">\r\n![Python](https://datascientest.com/en/wp-content/uploads/sites/9/2024/02/python.png)\r\n</center>\r\n\r\n\r\n**1. Tecnología y Desarrollo de Software**\r\n\r\nEn el ámbito de la tecnología, Python se ha establecido como un pilar fundamental en el desarrollo de software:\r\n\r\n* Desarrollo Web y Backend: Frameworks como Django y Flask permiten la creación rápida y eficiente de aplicaciones web complejas. Empresas de todos los tamaños utilizan Python para construir desde sitios web simples hasta plataformas escalables y robustas.\r\n\r\n* Automatización de Tareas: Con su sintaxis clara y bibliotecas como Fabric y Ansible, Python se utiliza extensivamente para automatizar tareas de administración de sistemas, despliegue de software y gestión de infraestructuras en la nube.\r\n\r\n**2. Ciencia de Datos y Análisis**\r\n\r\nPython se ha convertido en el lenguaje dominante en el campo de la ciencia de datos y el análisis estadístico:\r\n\r\n* Librerías de Análisis de Datos: Bibliotecas como Pandas, NumPy y SciPy proporcionan herramientas poderosas para manipular y analizar datos eficientemente. Estas herramientas son fundamentales para científicos de datos y analistas que extraen información significativa de grandes conjuntos de datos.\r\n\r\n* Machine Learning y AI: Frameworks como TensorFlow y PyTorch, junto con bibliotecas como scikit-learn, hacen de Python la opción preferida para desarrollar modelos de machine learning y aplicaciones de inteligencia artificial. Estas tecnologías están transformando sectores como la salud, finanzas y comercio electrónico.\r\n\r\n**3. Finanzas y Economía**\r\n\r\nEn el sector financiero, Python es una herramienta esencial para análisis y modelado:\r\n\r\n* Análisis Financiero: Python se utiliza para realizar análisis de riesgo, modelado financiero y optimización de carteras. Bibliotecas como QuantLib y Pandas son ampliamente utilizadas por analistas financieros para decisiones informadas.\r\n\r\n* Trading Algorítmico: Python se utiliza para desarrollar y ejecutar estrategias de trading algorítmico en mercados financieros globales. La flexibilidad del lenguaje y las bibliotecas de análisis numérico lo hacen ideal para implementar algoritmos complejos en tiempo real.\r\n\r\n**4. Educación y Academia**\r\n\r\nPython se ha convertido en el lenguaje de elección en la educación y la investigación académica:\r\n\r\n* Enseñanza de Programación: Su sintaxis clara y legible hace que Python sea ideal para enseñar programación a estudiantes de todos los niveles. Se utiliza en cursos introductorios de informática en universidades de todo el mundo.\r\n\r\n* Investigación Científica: Python es utilizado por investigadores en campos como física, biología, astronomía y más, para simular fenómenos, analizar datos experimentales y crear visualizaciones interactivas.\r\n\r\n**Conclusión**\r\n\r\nPython no solo ha demostrado ser versátil y poderoso en el desarrollo de software, sino que también ha dejado una huella significativa en múltiples industrias. Desde la automatización y análisis de datos hasta la investigación científica y el trading financiero, Python continúa desempeñando un papel crucial en la transformación digital y el avance tecnológico a nivel mundial.\r\n\r\nAl adoptar Python, las industrias no solo mejoran la eficiencia operativa, sino que también innovan y se adaptan rápidamente a los cambios del mercado, consolidando su posición competitiva en un mundo cada vez más digitalizado y conectado.",
+    "publish": "2024-07-06T06:48:12",
+    "created": "2024-07-06T06:48:33.883",
+    "update": "2024-07-09T22:15:48.268",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 4,
+    "name": "DIEGO BONATTI PAJUELO",
+    "email": "bonattipajuelodiego2406@gmail.com",
+    "body": "excelente post, pero debemos de tener en cuenta que python se explaya más...",
+    "created": "2024-07-09T11:51:01.642",
+    "updated": "2024-07-09T13:08:17.430",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 4,
+    "name": "luis bonatti",
+    "email": "dbonatti@ucvvirtual.edu.peavcdas",
+    "body": "sassd",
+    "created": "2024-07-09T12:09:26.737",
+    "updated": "2024-07-09T12:09:26.737",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 6,
+  "fields": {
+    "post": 4,
+    "name": "whatpapp",
+    "email": "dbonatti@ucvvirtual.edu.peasda",
+    "body": "sdasdasd",
+    "created": "2024-07-09T12:14:03.045",
+    "updated": "2024-07-09T12:14:03.045",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 9,
+  "fields": {
+    "post": 1,
+    "name": "DIEGO BONATTI PAJUELO",
+    "email": "bonattipajuelodiego2406@gmail.com",
+    "body": "tienes mucha razón, pero podrías dejarnos el código fuente o algún enlace referente al envió de correo con Django.",
+    "created": "2024-07-09T21:02:26.597",
+    "updated": "2024-07-09T21:02:26.597",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Desarrollo Web",
+    "slug": "desarrollo-web"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Automatización Industrial",
+    "slug": "automatizacion-industrial"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Programación",
+    "slug": "programacion"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Python con Django",
+    "slug": "python-con-django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Desarrollo Ágil",
+    "slug": "desarrollo-ágil"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 9,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 9,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 1,
+    "content_type": 9,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 1,
+    "content_type": 9,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 3,
+    "content_type": 9,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 3,
+    "content_type": 9,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 4,
+    "content_type": 9,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 4,
+    "content_type": 9,
+    "object_id": 3
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]

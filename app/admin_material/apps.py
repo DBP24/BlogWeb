@@ -7,5 +7,5 @@ from django.apps import AppConfig
 
 class AdminMaterialDashboardConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'admin_material'
+    name = 'app.admin_material'
     icon = 'fa fa-user'

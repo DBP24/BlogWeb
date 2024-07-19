@@ -857,3 +857,23 @@ Pagination
   top: auto;  
 } */
 
+/* .__shr{
+  align-items: center;
+  background: red;
+} */
+
+.input-container {
+  display: flex;
+  justify-content: space-between; /* Asegura que haya espacio entre los elementos */
+  align-items: center;
+  width: 100%; /* Ajusta el ancho del contenedor según sea necesario */
+  padding: 5px; /* Centra el contenedor si es necesario */
+}
+
+.search-input {
+  flex-grow: 1; /* Hace que el input ocupe el espacio restante */
+  margin-left: 10px; /* Espacio entre el input y el botón */
+}
+.btn-primary.__sh {
+  flex-basis: 20%; /* Tamaño base del botón al 20% del contenedor */
+}

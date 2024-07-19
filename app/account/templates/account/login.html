@@ -1,0 +1,56 @@
+{% extends 'layouts/nav.html' %}
+{% block title %} Login {% endblock %}
+{% block content %}
+<div class="login-form-bg h-100">
+    <div class="container h-100">
+        <div class="row justify-content-center h-100">
+            <div class="col-xl-6">
+                <div class="form-input-content">
+                    <div class="card login-form mb-0">
+                        <div class="card-body pt-5">
+                            <a class="text-center" href="index.html">
+                                <h4>Diego Bonatti Pajuelo</h4>
+                            </a>
+                            <hr>
+                            <div class="row mt-3">
+                                <p class="mb-0 text-white text-center">
+                                    {% if msg %}
+                                    {{ msg | safe }}
+                                    {% endif %}
+                                </p>
+                            </div>
+                            <form class="mt-5 mb-5 login-input" method="post" >
+                                {% csrf_token %}
+                                {% if form.non_field_errors %}
+                                    <div class="alert alert-danger">
+                                        {% for error in form.non_field_errors %}
+                                            {{ error }}
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+                                
+
+
+                                {% for field in form %}
+                                    <div class="form-group">
+                                        <!-- {{ field.label_tag }} -->
+                                        {{ field }}
+                                        {% for error in field.errors %}
+                                            <span class="alert alert-danger">{{ error }}</span>
+                                        {% endfor %}
+                                    </div>
+                                {% endfor %}
+
+                                <button class="btn login-form__btn  submit w-100">Iniciar sesión</button>
+                            </form>
+                            <p class="mt-5 login-form__footer">Quiere descargar mis proyectos? <a
+                                    href="page-register.html" class="text-primary">Envia un correo</a> ahora</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

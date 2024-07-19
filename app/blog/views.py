@@ -25,6 +25,11 @@ from unidecode import unidecode
  • Count: The total number of objects
 '''
 from django.db.models import Count
+# BUSQUEDA
+from .forms import EmailPostForm, CommentForm, SearchForm 
+from django.db.models import Q
+
+
 
 # Listar los Post
 def get_post(request,tag_slug=None):
@@ -35,7 +40,15 @@ def get_post(request,tag_slug=None):
     if tag_slug:
         tag = get_object_or_404(Tag, slug=tag_slug)
         posts_list = posts_list.filter(tags__in=[tag])
-        
+    # busqueda
+    form = SearchForm()
+    query = None
+    if 'query' in request.GET:
+        form = SearchForm(request.GET)
+        if form.is_valid():
+            query = form.cleaned_data['query']
+            posts_list = posts_list.filter(Q(title__icontains=query)|Q(body__icontains=query))
+            # posts_list = posts_list.filter(title__icontains=query)
     # paginación
     paginator = Paginator(posts_list, 3)
     page_number = request.GET.get('page', 1)
@@ -51,7 +64,9 @@ def get_post(request,tag_slug=None):
     context = {
         'posts' : posts,
         'profile' : profile,
-        'tag' : tag
+        'tag' : tag,
+        'form' : form,
+        'query' : query
     }
     return render(request,'blog/list.html',context)
 
@@ -136,3 +151,22 @@ def post_comment(request, post_id):
 #                           {'post': post,
 #                            'form': form,
 #                            'comment': comment})
+
+# shears
+from django.contrib.postgres.search import SearchVector
+
+
+def post_search(request):
+    form = SearchForm()
+    query = None
+    results = []
+    if 'query' in request.GET:
+        form = SearchForm(request.GET)
+        if form.is_valid():
+            query = form.cleaned_data['query']
+            results = Post.objects.filter(title__icontains=query)
+    return render(request,
+                  'blog/search.html',
+                  {'form': form,
+                   'query': query,
+                   'results': results})

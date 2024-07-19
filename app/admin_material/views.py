@@ -31,7 +31,7 @@ def profile(request):
 
 # Authentication
 class UserLoginView(LoginView):
-  template_name = 'accounts/login.html'
+  template_name = 'accounts/register.html'
   form_class = LoginForm
 
 def register(request):

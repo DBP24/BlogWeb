@@ -31,11 +31,11 @@ class RegistrationForm(UserCreationForm):
 
 
 class LoginForm(AuthenticationForm):
-  username = UsernameField(widget=forms.TextInput(attrs={"class": "form-control", "placeholder": "Username"}))
+  username = UsernameField(widget=forms.TextInput(attrs={"class": "form-control", "placeholder": "Usuario"}))
   password = forms.CharField(
-      label=_("Password"),
+      label=_("Contraseña"),
       strip=False,
-      widget=forms.PasswordInput(attrs={"class": "form-control", "placeholder": "Password"}),
+      widget=forms.PasswordInput(attrs={"class": "form-control", "placeholder": "Contraseña"}),
   )
 
 class UserPasswordResetForm(PasswordResetForm):

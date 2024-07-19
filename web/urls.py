@@ -26,11 +26,11 @@ sitemaps = {
 }
 
 urlpatterns = [
-    # path('', include('admin_material.urls')),
-    path('', include('app.page.urls')),
+
     path('admin/', admin.site.urls),
-    path('dashboard/', include('app.admin_material.urls')),
+    path('', include('app.page.urls')),
     path('blog/', include('app.blog.urls')),
+    path('account/', include('app.account.urls')),
 
         #site maps
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps},

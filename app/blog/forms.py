@@ -23,3 +23,10 @@ class CommentForm(forms.ModelForm):
             'email': 'Email',  # Etiqueta personalizada para el campo 'email'
             'body': 'Comentario',  # Etiqueta personalizada para el campo 'body'
         }
+    
+class SearchForm(forms.Form):
+    query = forms.CharField(
+        widget=forms.TextInput(
+            attrs={'class': 'form-control','placeholder': 'Buscar por palabra clave, ejemplo "Python"'}
+            ),
+            label="Buscar")

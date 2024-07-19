@@ -31,13 +31,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# SITE MAPS
 SITE_ID = 1
 # Application definition
 
 INSTALLED_APPS = [
-    # Django Material Dashboard Admin
-    # 'admin_material.apps.AdminMaterialDashboardConfig',
-
+ 
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -47,12 +46,15 @@ INSTALLED_APPS = [
     #app
     'app.page.apps.PageConfig',
     'app.blog.apps.BlogConfig',
-    'app.admin_material',
+    # 'app.admin_material',
     #tags
     'taggit',
     # site maps
     'django.contrib.sites',
     'django.contrib.sitemaps',
+    # account
+    'app.account.apps.AccountConfig'
+    
 ]
 
 MIDDLEWARE = [
@@ -90,6 +92,14 @@ WSGI_APPLICATION = 'web.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': os.getenv("NAME_DB"),
+    #     'USER' : os.getenv("USER_DB"),
+    #     'PASS' : os.getenv("PASS_DB"),
+    #     'HOST' : os.getenv("HOST_DB"),
+    #     'PORT' : os.getenv("PORT_DB")
+    # }
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
@@ -146,7 +156,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-LOGIN_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = 'account:dashboard'
+LOGIN_URL = 'account:login'
+LOGOUT_URL = 'account:logout'
+
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 

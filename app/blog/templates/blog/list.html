@@ -9,8 +9,25 @@
     <div class="row topspace">
         <div class="col-sm-8 col-sm-offset-2">
             {% if tag %}
-                <h2>Entrada de Etiquetas "{{ tag.name }}"</h2>
+                <h2># "{{ tag.name }}"</h2>
             {% endif %}
+           
+            <div class="container">
+                <div class="row __shr">
+                    <form method="get">
+                        <div class="input-container">
+                            {{ form.query }} <!-- Solo el campo, sin label -->
+                            <input class="btn btn-primary __sh search-input" type="submit" value="Buscar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br><hr>
+            {% if query %}
+                <h2 class="text-center"> Coincidencicia con : <strong>{{ query|upper }}</strong></h2>
+                <br><hr>
+            {% endif %}
+            
             {% for post in posts %}                                            
             <article class="post">
                 <header class="entry-header">
@@ -37,7 +54,14 @@
             <br><hr>
             <h3>Últimas publicaciones</h3>
             {% show_latest_posts 3 %}
+            <hr>
+            <p>
+                <a class="__a" href="{% url 'blog:post_feed' %}">
+                       Suscribite a mi feed RSS
+                </a>
+            </p>
         </div>
+        
     </div>
 </div>
 <!-- Otros elementos específicos de la página de inicio -->
